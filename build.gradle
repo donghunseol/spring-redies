@@ -22,6 +22,8 @@ repositories {
 }
 
 dependencies {
+	implementation 'io.github.cdimascio:java-dotenv:5.2.2'
+
 	// Spring Boot에서 Redis를 쉽게 사용하기 위한 의존성
 	implementation 'org.springframework.boot:spring-boot-starter-data-redis'
 	// - Spring Data Redis를 통해 Redis와 상호작용
